@@ -1,0 +1,432 @@
+.container {
+    width: 276px;
+    height: 339px;
+    background: linear-gradient(180deg, #7D2CB6 25.52%, #4E186E 100%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: -2
+    
+}
+
+.cuello {
+    position: absolute;
+    top: 101px;
+    left: 1px;
+    width: 160px;
+    height: 32px;
+    background: #F99B29;
+    border-radius: 50px;
+    transform: rotate(-90deg);
+}
+
+.body {
+    position: absolute;
+    top: 166px;
+    left: 65px;
+    width: 151px;
+    height: 39px;
+    background: #F99B29;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.body-shadow {
+    position: absolute;
+    top: 166px;
+    left: 65px;
+    width: 151px;
+    height: 50px;
+    background: #F78928;
+    border-radius: 50px;
+    z-index: 1
+}
+
+.rayitas {
+    position: absolute;
+    top: 173px;
+    left: 97px;
+    z-index: 2;
+    width: 50px;
+    height: 9px;
+    background: #FCB117;
+    border-radius: 50px;
+    z-index: 2;
+}
+
+.rayitas2 {
+    position: absolute;
+    top: 188px;
+    left: 137px;
+    width: 59px;
+    height: 6px;
+    background: #FCB117;
+    border-radius: 50px;
+    z-index: 2;
+}
+
+.parte1-patas {
+    width: 37px;
+    height: 14px;
+    background: #E24125;
+    transform: rotate(-90deg)  ;
+}
+
+.parte2-patas {
+    width: 142px;
+    height: 14px;
+    background: #E5651C;
+    transform: rotate(-90deg);
+}
+
+.parte3-patas {
+    width: 142px;
+    height: 17px;
+    background: #F78928;
+    transform: rotate(-90deg);
+}
+
+
+.parte1-patas-ubi{
+    position: absolute;
+    top:210px;
+    left: 78px;
+    z-index: 0;  
+}
+
+.parte2-patas-ubi {
+    position: absolute;
+    top: 262px;
+    left: 25px;
+    z-index: -1;
+    
+}
+
+.parte3-patas-ubi {
+    position: absolute;
+    top: 260.5px;
+    left: 40.5px;
+    
+}
+
+.parte1-patas-ubi-1{
+    position: absolute;
+    top:210px;
+    left: 154px;
+    z-index: 0;  
+}
+
+.parte2-patas-ubi-1 {
+    position: absolute;
+    top: 262px;
+    left: 101px;
+    z-index: -1;
+}
+
+.parte3-patas-ubi-1 {
+    position: absolute;
+    top: 260.5px;
+    left: 116.5px;
+}
+
+.pie1 {
+    width: 15px;
+    height: 15px;
+    background: #E5651C;
+    border-radius: 50%;
+}
+
+.pie2{
+    width: 15px;
+    height: 15px;
+    background: #D12227;
+    border-radius: 50%;
+}
+
+.pie1-ubi {
+    position: absolute;
+    top: 331px;
+    left: 82px;
+}
+
+.pie2-ubi {
+    position: absolute;
+    top: 331px;
+    left: 94px;
+}
+
+.pie1-ubi-1 {
+    position: absolute;
+    top: 331px;
+    left: 158px;
+}
+
+.pie2-ubi-1 {
+    position: absolute;
+    top: 331px;
+    left: 170px;
+}
+
+.piso {
+    position: absolute;
+    z-index: 6;
+    bottom: -17px;
+    width: 276px;
+    height: 17px;
+    background: #C4C4C4;
+}
+
+.cola-parte1{
+    position: absolute;
+    top: 235px;
+    left: 160px;
+    width: 111px;
+    height: 29px;
+    background: #B51C1E;
+    border-radius: 40px 0px;
+    transform: rotate(90deg);
+}
+
+.cola-parte2{
+    position: absolute;
+    top: 232px;
+    left: 175px;
+    width: 90px;
+    height: 20px;
+    background: #D12227;
+    border-radius: 40px 0px;
+    transform: rotate(90deg);
+}
+
+.cola-parte3{
+    position: absolute;
+    top: 244.5px;
+    left: 194.5px;
+    width: 59px;
+    height: 4px;
+    background: #EE4042;
+    border-radius: 50px;
+    transform: rotate(90deg);
+}
+
+.cola-parte4{
+    position: absolute;
+    top: 244.5px;
+    left: 204.5px;
+    width: 25px;
+    height: 4px;
+    background: #EE4042;
+    border-radius: 50px;
+    transform: rotate(90deg);
+}
+
+.bolita {
+    width: 14px;
+    height: 13px;
+    background: #D12227;
+    border-radius: 50px;
+    position: absolute;
+    left: 83px;
+    z-index: 2;
+}
+
+.bolita-ubi-1{
+    top: 154px; 
+}
+
+.bolita-ubi-2{
+    top:144px;
+}
+
+.bolita-ubi-3{
+    top:134px;
+}
+
+.bolita-ubi-4{
+    top:124px;
+}
+
+.bolita-ubi-5{
+    top:114px;
+}
+
+.bolita-ubi-6{
+    top:104px;
+}
+
+.bolita-ubi-7{
+    top:94px;
+}
+
+.bolita-ubi-8{
+    top:84px;
+}
+
+.bolita-ubi-9{
+    top:74px;
+}
+
+.bolita-ubi-10{
+    top:64px;
+}
+
+.bolita-ubi-11{
+    top:54px;
+}
+
+.crin {
+    position: absolute;
+    top: 108px;
+    left: 34.5px;
+    width: 117px;
+    height: 9px;
+    background: #D12227;
+    transform: rotate(-90deg);
+}
+
+.cabeza {
+    position: absolute;
+    top:37px;
+    left: 15px;
+    width: 65px;
+    height: 19px;
+    background: #F99B29;
+    border-radius: 50px;
+    z-index:2;
+}
+
+.cabeza2 {
+    position: absolute;
+    top: 37px;
+    left: 15px;
+    width: 73px;
+    height: 20px;
+    background: #F99B29;
+    border-radius: 50px;
+    z-index: 0;
+}
+
+.cabeza-shadow {
+    position: absolute;
+    top: 38px;
+    left: 15px;
+    z-index: 1;
+    width: 65px;
+    height: 25px;
+
+    background: #F78928;
+    border-radius: 50px;
+    }
+
+.ojo {
+    position: absolute;
+    
+    width: 8px;
+    height: 8px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    z-index: 3;
+}
+
+.ojo1-ubi {
+    top: 42px;
+    left: 58px;
+}
+
+.ojo2-ubi {
+   top: 42px;
+    left: 65px; 
+}
+
+.iris {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #000000;
+    border-radius: 50px;
+    z-index: 4;
+}
+
+.iris1-ubi {
+    top: 45px;
+    left: 61px;
+}
+
+.iris2-ubi {
+    top: 45px;
+    left: 68px;  
+}
+
+.boca {
+    position: absolute;
+    top: 47px;
+    left: 28px;
+    width: 13px;
+    height: 4px;
+    background: #F99B29;
+    box-shadow: 1px 1px 0px #F78928;
+    border-radius: 50px 20px 50px 50px;
+    z-index: 5
+}
+
+.nostril1 {
+    position: absolute;
+    top: 35px;
+    left: 28px;
+    width: 1px;
+    height: 1px;
+    background: #EF5D26;
+    box-shadow: 0px 0px 0px 2px #F99B29;
+    border-radius: 50%;
+}
+
+.nostril2 {
+    position: absolute;
+    top: 35px;
+    left: 36px;
+    width: 1px;
+    height: 1px;
+    background: #EF5D26;
+    box-shadow: 0px 0px 0px 2px #F99B29;
+    border-radius: 50%;
+}
+
+.oreja1{
+    position: absolute;
+    top: 35px;
+    left: 80px;
+    z-index: 3;
+    width: 41.91px;
+    height: 16.07px;
+    background: #F99B29;
+    border-radius: 50px;
+    transform: rotate(-34.55deg);
+    
+}
+
+.oreja1-inner {
+    position: absolute;
+    top: 39.5px;
+    left: 88px;
+    z-index: 4;
+    width: 26.52px;
+    height: 7.33px;
+    background: #EF5D26;
+    border-radius: 50px;
+    transform: rotate(-34.55deg);
+}
+
+.oreja2 {
+    position: absolute;
+    width: 41.91px;
+    height: 16.07px;
+    top: 33px;
+    left: 66px;
+    z-index: -1;
+    background: #F78928;
+    border-radius: 50px;
+    transform: rotate(-34.55deg);
+}
+
